@@ -1,28 +1,40 @@
-# patient-registration-app
-
 # Patient Registration App
 
-**Live Demo:** https://<YOUR-VERCEL-URL>.vercel.app
+A fully frontend patient registration system built using **React** and **PGlite**.  
+It allows users to register new patients, run custom SQL queries, and persist data in the browser using IndexedDB.
 
-## Features
+---
 
-- Register new patients
-- View patient list with search
-- Run raw SQL queries
-- Data persists across reloads & tabs
+### 🚀 Live Demo
 
-## Tech Stack
+👉 [https://patientregistration-pglite.netlify.app](https://patientregistration-pglite.netlify.app)
 
-- React, Vite, Tailwind CSS
-- PGlite (IndexedDB + SQLite API)
-- React Router v6
+---
 
-## Setup & Run Locally
+### ✅ Features
+
+- ➕ Register new patients with detailed info
+- 📋 View and search patient list
+- 💻 Run raw SQL queries with live results
+- 🔄 Data persists across page refreshes and multiple tabs
+
+---
+
+### ⚙️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [PGlite](https://electric-sql.com/docs/pglite) (SQLite + IndexedDB in-browser)
+- [React Router v6](https://reactrouter.com/)
+
+---
+
+### 🛠️ Setup & Run Locally
 
 ```bash
-git clone https://github.com/<YOUR-USERNAME>/patient-app.git
-cd patient-app
+git clone https://github.com/YaswanthSai2003/patient-registration-app
+cd patient-registration-app
 npm install
 npm run dev
 # Open http://localhost:5173
-```
