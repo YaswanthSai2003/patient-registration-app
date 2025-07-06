@@ -1,22 +1,26 @@
-# Patient Registration App 🏥
+# Patient Registration App
 
-A lightweight frontend-only hospital portal built using **React + PGlite**.  
-Data is stored in-browser using **IndexedDB**, powered by **@electric-sql/pglite** via CDN.
+**Live Demo:** https://<YOUR-VERCEL-URL>.vercel.app
 
-### ✅ Features
+## Features
 
-- Register new patients with all essential fields
-- Execute raw SQL queries via SQL Console
-- View and manage data across multiple browser tabs
-- Works offline — data persists across refreshes
+- Register new patients
+- View patient list with search
+- Run raw SQL queries
+- Data persists across reloads & tabs
 
----
+## Tech Stack
 
-### 🧰 Setup Instructions
+- React, Vite, Tailwind CSS
+- PGlite (IndexedDB + SQLite API)
+- React Router v6
 
-#### Local development:
+## Setup & Run Locally
 
 ```bash
+git clone https://github.com/<YOUR-USERNAME>/patient-app.git
+cd patient-app
 npm install
 npm run dev
+# Open http://localhost:5173
 ```
