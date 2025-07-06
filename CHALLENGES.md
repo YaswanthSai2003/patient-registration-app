@@ -22,6 +22,6 @@ One of the requirements was to make individual commits for each feature. I had t
 
 ## 6. Deployment
 
-I wasn’t very familiar with Netlify or Vercel, so figuring out how to deploy a Vite + React app was a new skill I learned. I chose Vercel in the end because of its simplicity and fast setup.
+I wasn’t very familiar with Netlify or Vercel, so figuring out how to deploy a Vite + React app was a new skill I learned. I chose Netlify in the end because of its simplicity and fast setup.
 
 This project helped me learn not just frontend skills but also how to organize and present a complete working app with clean code, UI, and deployment.
